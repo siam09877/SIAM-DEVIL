@@ -139,7 +139,7 @@ def menu():
   print(" [4] see crack result")
   print(" [5] check the crack result option")
   print(" [6] user-agent settings")
-  print("[ SIAM VAU ]")
+  print("[ SIAM+VAU ]")
   print(" [\033[0;91m0\033[0;97m] exit (remove token)")
   emon = raw_input("\n [?] choose : ")
   if emon == "":
@@ -264,7 +264,7 @@ def method():
     ask = raw_input(" [?] use manual password? y/n: ")
     if ask == "y":
       with ThreadPoolExecutor(max_workers=30) as coeg:
-        print("\n [*] pass example: 102030,1122334455,223344")
+        print("\n [*] pass example: 102030,100200,223344")
         asu = raw_input(" [?] set pass : ").split(",")
         if len(asu) =="":
           exit(" [!] don't be empty")
@@ -294,7 +294,7 @@ def method():
     ask = raw_input(" [?] use manual password? y/n: ")
     if ask == "y":
       with ThreadPoolExecutor(max_workers=30) as coeg:
-        print("\n [*] pass example: 102030, 1122334455, 223344")
+        print("\n [*] pass example: 102030, 100200, 223344")
         asu = raw_input(" [?] set pass : ").split(",")
         if len(asu) =="":
           exit(" [!] don't be empty")
@@ -324,7 +324,7 @@ def method():
     ask = raw_input(" [?] use manual password? y/n: ")
     if ask == "y":
       with ThreadPoolExecutor(max_workers=30) as coeg:
-        print("\n [*] pass example: 102030, 1122334455, 223344")
+        print("\n [*] pass example: 102030, 100200, 223344")
         asu = raw_input(" [?] set pass : ").split(",")
         if len(asu) =="":
           exit(" [!] don't be empty")
@@ -354,7 +354,7 @@ def method():
     ask = raw_input(" [?] use manual password? y/n: ")
     if ask == "y":
       with ThreadPoolExecutor(max_workers=30) as coeg:
-        print("\n [*] pass example: 102030, 1122334455, 223344")
+        print("\n [*] pass example: 102030, 100200, 223344")
         asu = raw_input(" [?] set pass : ").split(",")
         if len(asu) =="":
           exit(" [!] don't be empty")
