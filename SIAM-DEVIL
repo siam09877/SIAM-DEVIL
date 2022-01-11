@@ -252,7 +252,7 @@ def massal():
   print(" [+] total id  : \033[0;91m%s\033[0;97m"%(len(id)))
 
 def method():
-  print(" \n [ choose one crack method]\n")
+  print(" \n
   print(" [1] api method (fast crack)")
   print(" [2] free method (fast crack) [not for BD user]")
   print(" [3] mbasic method (slow crack)")
